@@ -1,0 +1,48 @@
+anar fent entregues
+llibres:
+	Aurélien Géron. Hands-On Machine Learning with Scikit-Learn, Keras & Tensorflow, 2nd Edition. O'Reilly, 2019.
+	Francois Chollet. Deep Learning with Python, 2nd Edition. Manning, 2021.
+
+Xarxes siamesas li dones dues imatges i et calcula el que vulguis.
+decidir si es vol fer una classificacio o una regresió
+
+start de lart
+Baixarme el celebA
+Buscar xarxes ja entrenades 
+Fer-ho binari i despres treientli la funcio de activacio fer-ho regresió
+objectiu montar una xarxa a partir dels exemples de keras de xarxes siamesas
+Transerf learning
+	agafar una xarxa ja adaptada i entrenar-la amb el meue xemple
+
+implementar la similaritat
+MOntar el sistem de busqueda
+
+recuperrar la xarxa dels gats i gossos
+
+Mirar jupiter i el pycharm
+Crear una carpeta en el drive i compratirla amb el gerard
+Utilitzar github per a poder compartir-ho
+usuari de github del profe: gebakx
+
+Donar la linia de cap a on s'ha d'anar
+
+
+Objectiu principal Donar a coneixer el COM s'ha de fer l'app
+Pero ens c¡quedem en el prototipus a modo de notebook on fiques la teva cara i et troba la cara mes similar
+
+Millor quedar dimarts tarda
+
+
+Links:
+   Supervised learning
+	https://atenea.upc.edu/pluginfile.php/4655403/mod_resource/content/4/index.html#1
+   Unsupervised Learning
+	https://atenea.upc.edu/pluginfile.php/4707895/mod_resource/content/3/index.html#1
+   Optimization
+	https://atenea.upc.edu/pluginfile.php/4655405/mod_resource/content/2/index.html#1
+   Validating. Machine Learning Models
+	https://atenea.upc.edu/pluginfile.php/4716603/mod_resource/content/1/index.html#1
+   Learning Complex Data
+	https://atenea.upc.edu/pluginfile.php/4716515/mod_resource/content/6/index.html#1
+   Reinforcement Learning
+	https://atenea.upc.edu/pluginfile.php/4716516/mod_resource/content/5/index.html#1

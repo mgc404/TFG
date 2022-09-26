@@ -1,0 +1,4 @@
+Nom_famos id num_aparicions
+papa 7799 24
+Tyrion_Lannister 7688 20
+Hulk 6428 23
