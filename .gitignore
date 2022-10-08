@@ -1,3 +1,5 @@
 Imatges
 fitxers locals
-.ipynb_checkpoints
+__pycache__
+exemples_keras/keras/data
+Weights
