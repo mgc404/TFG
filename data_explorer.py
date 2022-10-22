@@ -1,10 +1,35 @@
 import pandas as pd
+import shutil
 from sklearn.utils import shuffle
 from random import choice
 
-def get_celebrities(n_celebrities:int):
+def move_img(df:pd.DataFrame):
+    img_dir_scr = "Imatges/CelebA/Img/img_align_celeba/img_align_celeba/"
+    img_dir_dst = "main_img/"
+    for i, row in df.iterrows():
+        img_scr = img_dir_scr + row["Image_name"]
+        img_dst = img_dir_dst + row["Image_name"]
+        shutil.copyfile(img_scr, img_dst)
+
+def get_dic_index(df, traget_col):
+    df = df[traget_col].value_counts()
+    dic_index = df.to_dict()
+    i = 0
+    for c in dic_index:
+        dic_index[c] = i
+        i += 1
+    return dic_index
+    
+def refactor_identity(df, traget_col):
+    d = get_dic_index(df, traget_col)
+    df["class"] = df.apply(lambda row: d[row[traget_col]], axis=1)
+    return df
+
+def get_celebrities(n_celebrities:int, refactor_class=False):
     df1, df2 = get_max_aparicions(get_identities(), n_celebrities)
     #df.reset_index(inplace=True, drop=True)
+    if refactor_class:
+        df1 = refactor_identity(df1, 'Identity')
     return df1, df2
 
 
