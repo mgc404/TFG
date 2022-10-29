@@ -34,7 +34,7 @@ def get_celebrities(n_celebrities:int, refactor_class=False):
 
 
 def get_identities():
-    identity_df = pd.read_csv("Imatges\CelebA\Anno\identity_CelebA.txt", sep=' ', header=None)
+    identity_df = pd.read_csv("main_img\identity_CelebA.txt", sep=' ', header=None)
     identity_df = identity_df.rename(columns={0:"Image_name", 1:"Identity"})
     return identity_df
 
