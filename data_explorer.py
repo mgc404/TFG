@@ -22,7 +22,7 @@ def get_dic_index(df, traget_col):
     
 def refactor_identity(df, traget_col):
     d = get_dic_index(df, traget_col)
-    df["class"] = df.apply(lambda row: d[row[traget_col]], axis=1)
+    df["Class"] = df.apply(lambda row: d[row[traget_col]], axis=1)
     return df
 
 def get_celebrities(n_celebrities:int, refactor_class=False):
